@@ -1,0 +1,18 @@
+collections_dir: contents
+
+collections:
+  experiences:
+    output: false
+    sort_by: date_debut
+  formations:
+    output: false
+    sort_by: date_debut
+  projets:
+    output: false
+    sort_by: date_debut
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"

@@ -1,0 +1,90 @@
+{% include head.html %}
+	<header>
+		<section>
+			<figure>
+				<img src="/assets/images/lenny-2018.jpg" alt="Lenny ROUANET">
+			</figure>
+			<article class="title">
+				<h1>Lenny ROUANET</h1>
+				<h2><span><strong>Responsable Innovation</strong></span> habitant à <strong>Lyon</strong></h2>
+			</article>
+			<article class="about">
+				{{ content }}
+			</article>
+			<article class="links">
+				<nav>
+					<a href="https://www.linkedin.com/in/lennyrouanet" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+					<a href="https://twitter.com/lennyrouanet" target="_blank"><i class="fab fa-twitter"></i></a>
+					<a href="https://github.com/lennyrouanet" target="_blank"><i class="fab fa-github"></i></a>
+				</nav>
+			</article>
+		</section>
+	</header>
+	<main>
+		<section>
+			<h2>Expériences</h2>
+			<table>
+				{% assign experiences = site.experiences | reverse %}
+				{% for experience in experiences %}
+				<tr>
+					<th>
+						{% if experience.date_libelle_fin %}
+							{{ experience.date_libelle_debut }}<br>à {{ experience.date_libelle_fin }}
+						{% else %}
+							Depuis<br>{{ experience.date_libelle_debut }}
+						{% endif %}
+						</th>
+					<td>
+						<h3><strong>{{ experience.title }}</strong></h3>
+						<h5><span class="location"><i class="fas fa-map-marker-alt"></i>{{ experience.organisation }}, {{ experience.lieu }}</span> <a href="{{ experience.website_url }}" target="_blank" class="link"><i class="fas fa-external-link-alt"></i>{{ experience.website_name }}</a></h5>
+						{{ experience.content }}
+					</td>
+				</tr>
+				{% endfor %}
+			</table>
+		</section>
+		<section>
+			<h2>Formations</h2>
+			<table>
+				{% assign formations = site.formations | reverse %}
+				{% for formation in formations %}
+				<tr>
+					<th>
+						{% if formation.date_libelle_fin %}
+							{{ formation.date_libelle_debut }}<br>à {{ formation.date_libelle_fin }}
+						{% else %}
+							Depuis<br>{{ formation.date_libelle_debut }}
+						{% endif %}
+					</th>
+					<td>
+						<h3><strong>{{ formation.title }}</strong></h3>
+						<h5><span class="location"><i class="fas fa-map-marker-alt"></i>{{ formation.organisation }}, {{ formation.lieu }}</span></h5>
+						{{ formation.content }}
+					</td>
+				</tr>
+				{% endfor %}
+			</table>
+		</section>
+		<section>
+			<h2>Projets personnels</h2>
+			<table>
+				{% assign projets = site.projets | reverse %}
+				{% for projet in projets %}
+				<tr>
+					<th>
+						{% if projet.date_libelle_fin %}
+							{{ projet.date_libelle_debut }}<br>à {{ projet.date_libelle_fin }}
+						{% else %}
+							Depuis<br>{{ projet.date_libelle_debut }}
+						{% endif %}
+						</th>
+					<td>
+						<h3><strong>{{ projet.title }}</strong></h3>
+						{{ projet.content }}
+					</td>
+				</tr>
+				{% endfor %}
+			</table>
+		</section>
+	</main>
+{% include foot.html %}
