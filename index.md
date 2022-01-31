@@ -1,6 +1,6 @@
 ---
 layout: default
-title: CV de Lenny ROUANET, Responsable Innovation à Lyon
+title: CV de Lenny ROUANET, Entrepreneur & Designer à Lyon
 ---
 
 - ### À propos

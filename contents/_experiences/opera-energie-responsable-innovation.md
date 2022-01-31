@@ -2,21 +2,21 @@
 title: Responsable innovation
 date_debut: 2019-10
 date_libelle_debut: Octobre 2019
-date_libelle_fin: 
+date_libelle_fin: Janvier 2022
 organisation: Opéra Énergie
 lieu: Lyon
 website_url: https://bit.ly/3BsemAh
 website_name: opera-energie.com
 ---
 
-Après avoir occupé le poste de **CTO pendant 4 ans** et avoir **construit l'équipe Produit** d'Opéra Énergie (6 développeurs et un product owner) je me consacre désormais à l'**Innovation**.
+Après avoir occupé le poste de **CTO pendant 4 ans** et avoir **construit l'équipe Produit** d'Opéra Énergie (6 développeurs et un product owner) je me suis ensuite consacré à l'**Innovation**.
 
-En tant que Responsable Innovation, j’ai en charge les sujets suivants :
+En tant que Responsable Innovation, j’ai eu en charge les sujets suivants :
 
 - #### Identification d’opportunités business
   
   Une opportunité doit **apporter de la valeur** au client et répondre à un besoin.
-  Identifier des opportunités demande bien entendu une **expertise métier**. Mais c'est en me concentrant sur les utilisateurs (clients et collaborateurs), en portant attention à leurs besoins, que j’identifie les opportunités les plus intéressantes.
+  Identifier des opportunités demande bien entendu une **expertise métier**. Mais c'est en me concentrant sur les utilisateurs (clients et collaborateurs), en portant attention à leurs besoins, que j’ai identifié les opportunités les plus intéressantes.
 
 - #### Étude, prototypage et expérimentation d’opportunités
   
@@ -25,7 +25,7 @@ En tant que Responsable Innovation, j’ai en charge les sujets suivants :
   - **tester**,<br>
   - recueillir le **feedback**,<br>
   - **itérer**.
-  À chaque itération, j'intègre les clients, les équipes métier et techniques pour affiner la recherche et distiller la connaissance permettant d'aboutir sur un **succès**.
+  À chaque itération, j'ai intégré les clients, les équipes métier et techniques pour affiner la recherche et distiller la connaissance permettant d'aboutir sur un **succès**.
 
 - #### Stratégie et culture d’innovation
   
