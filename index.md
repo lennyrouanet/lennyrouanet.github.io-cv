@@ -1,6 +1,8 @@
 ---
 layout: default
 title: CV de Lenny ROUANET, Entrepreneur & Designer à Lyon
+description: CV de Lenny ROUANET, Entrepreneur & Designer vivant à Lyon
+keywords: ROUANET, Lenny, Entrepreneur, Designer, Head of Product & Tech, CTO, CPO, CIO, Produit, Direction technique, Innovation
 ---
 
 - ### À propos
