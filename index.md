@@ -29,7 +29,7 @@ keywords: ROUANET, Lenny, Entrepreneur, Designer, Head of Product & Tech, CTO, C
 
 - ### Expériences
   
-  Plus de 10 ans d’expérience en direction de la technologie et le management l’innovation.
+  Plus de 15 ans d’expérience sur les problématiques & solutions commerciales (communication de marques, commerce en ligne, courtage, affiliation, etc.).
 
 
 - ### Diplômes
